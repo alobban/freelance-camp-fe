@@ -11,27 +11,28 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var DocumentsComponent = (function () {
     function DocumentsComponent() {
+        this.pageTitle = "Document Dashboard";
         this.documents = [
             {
                 title: "My First Doc",
                 description: "This is a sample doc",
                 file_url: "http://google.com",
                 updated_at: "11/11/16",
-                image_url: "http://google.com",
+                image_url: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Mistakes-to-avoid-when-hiring-freelancers.jpg",
             },
             {
                 title: "My Second Doc",
                 description: "This is a sample doc",
                 file_url: "http://google.com",
                 updated_at: "11/11/16",
-                image_url: "http://google.com",
+                image_url: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Mistakes-to-avoid-when-hiring-freelancers.jpg",
             },
             {
                 title: "My Last Doc",
                 description: "This is a sample doc",
                 file_url: "http://google.com",
                 updated_at: "11/11/16",
-                image_url: "http://google.com",
+                image_url: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Mistakes-to-avoid-when-hiring-freelancers.jpg",
             }
         ];
     }

@@ -23,5 +23,4 @@ export class ProposalShowComponent implements OnInit {
 			}
 		)
 	}
-	console.log(id);
 }
